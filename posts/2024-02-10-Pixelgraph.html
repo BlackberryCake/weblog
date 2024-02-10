@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pixelgraph</title>
+<link rel="icon" href="../images/favicon.png" type="image/x-icon">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<link href="../style/style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+<div id="container">
+<header id="header">
+
+<ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../archive.html">Archive</a></li>
+<li><a href="../feed.xml">RSS</a></li>
+</ul>
+<!-- If below was uncommented, it would act as a separate list, and appear below the other links. -->
+<!-- + [RSS](./feed.xml) -->
+<hr>
+</header>
+<article id="content">
+<h1>Pixelgraph</h1>
+<h4>10 February 2024</h4>
+<center><img style="max-width: 512px; max-height: 512px;" src="../images/pixelgraph01.png" alt="An early Pixelgraph of myself.">
+<br><small>An early Pixelgraph of myself</small></center>
+<p>One of the reasons I wanted to start this blog was to have a place I felt comfortable sharing the various smaller projects I like to bash out over a weekend or two.  So, it feels only fitting that the first post I make should be about one of those projects!</p>
+<p>The Pixelgraph is a webapp, designed to be run on a mobile device that will take low-resolution dithered photos. Originally, I had intended it to take accurate Gameboy Camera style photographs, but my early attempts felt lacking, and so pivoted to making something inspired by instead. Better something original than a bad facsimile!</p>
+<p>So, the <strong>Pixelgraph</strong>. It’s the webapp that takes <strong>Pixelgraphs</strong>, 128x128 ordered-dithered photos, in either colour or black and white.</p>
+<p>If you would like to try it yourself, you can find the <a href="../projects/pixelgraph/index.html">Pixelgraph webapp here</a>. For future ease of use, try adding the webpage to your homescreen!</p>
+<h2>Pixelgraph UI:</h2>
+<center><img style="max-width: 541px;" src="../images/pixelgraphlabel.png" alt="Labelled image of the Pixelgraph UI."></center>
+<ol>
+<li>Viewfinder</li>
+<li>Zoom Slider</li>
+<li>Toggle Front/Back Facing Camera</li>
+<li>Toggle Gridlines</li>
+<li>Toggle Colour</li>
+<li>New Pixelgraph</li>
+<li>Save Pixelgraph</li>
+<li>Capture Pixelgraph</li>
+</ol>
+<h2>Taking a Pixelgraph:</h2>
+<ul>
+<li>Get your subject in frame.</li>
+<li>Once you're ready, you can press the 'Capture Pixelgraph' button, which will snap the pic, and freeze it in the viewfinder.</li>
+<li>Take a look at the photo, and if you're happy with it, press the 'Save Pixelgraph' button. This will save it to your phones download folder.</li>
+<li>If you would like to take another photo, you can clear the viewfinder by pressing the 'New Pixelgraph' button.</li>
+</ul>
+<center><img style="max-width: 512px; max-height: 512px;" src="../images/pixelgraph02.png" alt="A beach side walk at sunset.">
+<br><small>A beach side walk at sunset</small></center>
+<h2>Notes:</h2>
+<ul>
+<li>Gridlines won't be present in the captured Pixelgraph, so feel free to leave them on!</li>
+<li>You can zoom by adjusting the zoom slider, or by touching the viewfinder and sliding left or right.</li>
+<li>Downloaded images follow the naming format of 'Pixelgraph - Date - Time'</li>
+<li>The numbers in the bottom left are the date the build was made, as you can see the one I'm using was made months ago!</li>
+<li>Once an Pixelgraph is downloaded, you can scale it however you want. Though remember that it was originally a 128x128 image, so int scaling in powers of 2 is recommended! All the Pixelgraphs in this post are 512x512.</li>
+<li>As a webapp, you can add it to your home screen on your mobile phone. Great for quickly taking photos while out and about.</li>
+</ul>
+<center><img style="max-width: 512px; max-height: 512px;" src="../images/pixelgraph04.png" alt="A town reflecting in the water.">
+<br><small>A town reflecting in the water</small></center>
+<h2>Future Versions:</h2>
+<ul>
+<li>A memory/gallery feature. Would be nice to be able to snap away, and then be able to review them for downloads afterwards. Another benefit would be cleaning up the rather awkward, New &gt; Capture &gt; Save &gt; Repeat process you have to go through each time.</li>
+<li>The internal resolution of the webapp was chosen to scale perfectly with 16:9 displays. In hindsight, this was a bit silly as it's seemingly impossible to find phones that <em>aren't</em> 21:9 or some other super wide aspect. This means that on every device I’ve used the Pixelgraph on, there are borders on the top and bottom of the screen. Still, I consider this better than having borders on the sides! Would be nice to automatically support any aspect ratio <em>and</em> keep the pixel perfect integer scaling.</li>
+<li>While internally the image is 128x128, when I capture the canvas it will be whatever the actual pixel size was on your phone screen. So, on my phone, they are saved at 768x768. Easy enough to scale, but it would be nice to have an option of export size to avoid the additional step I take resizing on my PC.</li>
+</ul>
+<center><img style="max-width: 512px; max-height: 512px;" src="../images/pixelgraph05.png" alt="My keyboard.">
+<br><small>My keyboard</small></center>
+<p>The word Pixelgraph appears twenty times on this page!</p>
+<nav id="nextprev"><a href="../index.html">Home</a></nav>
+</article>
+<footer id="footer">
+<hr>
+<p>This blog is written by Kevin Colegate, built with <a href="https://ryantrawick.itch.io/zoner">Zoner</a>.</p>
+</footer>
+</div>
+</body>
+</html>
