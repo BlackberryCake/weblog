@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>	<title>Kevin's Weblog</title>
+<channel>	<title>Fish Rice Tomato</title>
 	<description>Kevin's Weblog</description>
 	<link>https://blackberrycake.github.io/weblog/</link>
 	<atom:link href="https://blackberrycake.github.io/weblog/" rel="self"></atom:link>
 	<language>en</language>
 	<lastBuildDate>
-Sat, 10 Feb 2024 17:44:07 +0000
+Sun, 11 Feb 2024 18:23:38 +0000
 </lastBuildDate>
 	<ttl>1440</ttl>
 
