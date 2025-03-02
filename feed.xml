@@ -6,7 +6,7 @@
 	<atom:link href="https://blackberrycake.github.io/weblog/" rel="self"></atom:link>
 	<language>en</language>
 	<lastBuildDate>
-Mon, 23 Dec 2024 16:00:56 +0000
+Sun, 02 Mar 2025 19:07:07 +0000
 </lastBuildDate>
 	<ttl>1440</ttl>
 
@@ -43,6 +43,15 @@ Mon, 23 Dec 2024 16:00:56 +0000
 		<link>https://blackberrycake.github.io/weblog/posts/2024-12-23-Pancakes.html</link>
 		<pubDate>
 			Mon, 23 Dec 2024 00:00:00 +0000
+		</pubDate>
+	</item>
+
+	<item>
+		<title>Fatal Fury's Unapproachable Beta</title>
+		<description>If you keep up with fighting games at all, you probably knew about the Fatal Fury: City of the Wolves beta that finished up last weekend. I’ve been excited for this one, having only ever dabbled with King of Fighters, Garou: Mark of the Wolves is easily my favourite of SNK’s fighters. A full-on sequel twenty-six years later is pretty wild.</description>
+		<link>https://blackberrycake.github.io/weblog/posts/2025-02-03-Fatal Fury's Unapproachable Beta.html</link>
+		<pubDate>
+			Mon, 03 Feb 2025 00:00:00 +0000
 		</pubDate>
 	</item>
 
