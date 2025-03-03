@@ -80,6 +80,10 @@ img {
 	width: 100%;
 	height: auto;
 }
+video {
+  max-width: 100%;
+  height: auto;
+}
 blockquote {
 	color: var(--main-small-text-color);
 	border-left: 3px solid var(--main-transparent);
