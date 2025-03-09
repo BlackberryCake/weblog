@@ -6,7 +6,7 @@
 	<atom:link href="https://blackberrycake.github.io/weblog/" rel="self"></atom:link>
 	<language>en</language>
 	<lastBuildDate>
-Mon, 03 Mar 2025 12:14:41 +0000
+Sun, 09 Mar 2025 21:35:35 +0000
 </lastBuildDate>
 	<ttl>1440</ttl>
 
@@ -52,6 +52,15 @@ Mon, 03 Mar 2025 12:14:41 +0000
 		<link>https://blackberrycake.github.io/weblog/posts/2025-02-03-Fatal Fury's Unapproachable Beta.html</link>
 		<pubDate>
 			Mon, 03 Feb 2025 00:00:00 +0000
+		</pubDate>
+	</item>
+
+	<item>
+		<title>Clicking Watch</title>
+		<description>Here’s a small thing I made all the way back in November, 2022. It's sat privately on my itch page this entire time. Todays the day I finally unleash the Clicking Watch!</description>
+		<link>https://blackberrycake.github.io/weblog/posts/2025-09-03-Clicking Watch.html</link>
+		<pubDate>
+			Wed, 03 Sep 2025 00:00:00 +0000
 		</pubDate>
 	</item>
 
