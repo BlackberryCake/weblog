@@ -6,7 +6,7 @@
 	<atom:link href="https://blackberrycake.github.io/weblog/" rel="self"></atom:link>
 	<language>en</language>
 	<lastBuildDate>
-Sun, 09 Mar 2025 22:20:19 +0000
+Sun, 16 Mar 2025 15:47:41 +0000
 </lastBuildDate>
 	<ttl>1440</ttl>
 
@@ -61,6 +61,15 @@ Sun, 09 Mar 2025 22:20:19 +0000
 		<link>https://blackberrycake.github.io/weblog/posts/2025-03-09-Clicking Watch.html</link>
 		<pubDate>
 			Sun, 09 Mar 2025 00:00:00 +0000
+		</pubDate>
+	</item>
+
+	<item>
+		<title>Breezy Game Recommendations</title>
+		<description>A couple of weeks ago I responded to a Resetera thread where the OP was asking for breezy one to four hours game recommendations. I love these kinds of threads, as they’re always great for finding games I didn’t know about, but also for sharing games that maybe others haven’t yet tried themselves!</description>
+		<link>https://blackberrycake.github.io/weblog/posts/2025-03-15-Breezy Game Recommendations.html</link>
+		<pubDate>
+			Sat, 15 Mar 2025 00:00:00 +0000
 		</pubDate>
 	</item>
 
